@@ -1,0 +1,1 @@
+python3 Bilderwechsel.py --dir ~/kiosk --pdf-delay 10 --pdf-zoom 2.0
