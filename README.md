@@ -30,6 +30,7 @@ Nun befindet sich am Desktop der Ordner "PDF".
 
 ## Der Ordner "PDF"
 Im PDF-Ordner befinden sich alle Dateien, die zur Ausführung des Programms nötig sind, *diese bitte unter keinen Umständen löschen*. 
+Die Datei "Platzhalter" bitte löschen bevor die PDF hinzugefügt werden. 
 
 Im Unterordner "kiosk" sind die PDF, etc. auszutauschen. 
 
@@ -51,8 +52,9 @@ PDF_EXTS   = {".pdf"}
 ```
 ## Programm-Flags
 Diese Angaben sind für die Anpassung des Programms, wenn Intervalle angepasst werden sollen, etc. 
---dir = Ordner, in dem die PDF sind (Technisch)
---delay = Wie lange zwischen den Wechseln gewartet werden soll
---recursive = Sollten irgendwann Unterordner erstellt werden im "kiosk"-Ordner, dann kann damit angegeben werden, dass diese mit einbezogen werden sollen.
---shuffle = Zufällige Wiedergabe einstellen
+- --dir = Ordner, in dem die PDF sind (Technisch)
+- --delay = Wie lange zwischen den Wechseln gewartet werden soll
+- --recursive = Sollten irgendwann Unterordner erstellt werden im "kiosk"-Ordner, dann kann damit angegeben werden, dass diese mit einbezogen werden sollen.
+- --shuffle = Zufällige Wiedergabe einstellen
+
 
