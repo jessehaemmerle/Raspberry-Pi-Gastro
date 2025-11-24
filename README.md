@@ -22,7 +22,7 @@ Zur Authentifizierung der Verbindung mittels VNC.
 ## Einstieg mittels VNC
 Wichtig zu beachten ist, dass der Rechner mit VNC-Client im selben Netzwerk ist wie der PI und dass VNC-Verbindungen nicht gesperrt sind. 
 Wenn das der Fall ist, dann kann der VNC-Viewer geöffnet werden und mittels der Suchleiste nach dem korrekten Rechner gesucht werden.
-![alt text](/.img/RVNC-Suchleiste.png)
+![RVNC-Suchleiste](/img/RVNC-Suchleiste.png)
 
 # Austauschen der Daten
 Wenn die Dateien auf dem Screen aktualisiert werden sollen, dann wieder mit VNC auf den Rechner einsteigen und mit der Tastenkombination "Alt+Leertaste" das Kontextmenü öffnen. Das Programm mittels "Schließen"-Schaltfläche schließen. 
@@ -55,3 +55,4 @@ Diese Angaben sind für die Anpassung des Programms, wenn Intervalle angepasst w
 --delay = Wie lange zwischen den Wechseln gewartet werden soll
 --recursive = Sollten irgendwann Unterordner erstellt werden im "kiosk"-Ordner, dann kann damit angegeben werden, dass diese mit einbezogen werden sollen.
 --shuffle = Zufällige Wiedergabe einstellen
+
